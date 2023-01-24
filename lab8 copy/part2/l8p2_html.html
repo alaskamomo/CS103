@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="l8p2_css.css">
+    <title>Lab 8 Part 1</title>
+    <script>
+        function clear1() { /*fix!*/
+            document.getElementById('box1').value="";
+            document.getElementById('box2').value="";
+            document.getElementById('box3').value="";
+        }
+
+    function doAdd() {
+            let sum;
+            let input1;
+            let input2;
+
+            input1 = document.getElementById("box1").value;
+            console.log(input1);
+            input1 = Number(input1);
+
+            input2 = document.getElementById("box2").value;
+            console.log(input2);
+            input2 = Number(input2);
+
+            sum = input1 + input2;
+            console.log(sum);
+            if(sum < 0){
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+                document.getElementById("box3").style.color= "red";
+            } else {
+                document.getElementById("box3").removeAttribute("color:red");
+                /*document.getElementById("box3").setAttribute("style","color:black");*/
+                document.getElementById("box3").style.color= "black";
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+            }
+        }
+
+        function doMinus() {
+            let sum;
+            let input1;
+            let input2;
+
+            input1 = document.getElementById("box1").value;
+            console.log(input1);
+            input1 = Number(input1);
+
+            input2 = document.getElementById("box2").value;
+            console.log(input2);
+            input2 = Number(input2);
+
+            sum = input1 - input2;
+            console.log(sum);
+            if(sum < 0){
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+                document.getElementById("box3").style.color= "red";
+            } else {
+                document.getElementById("box3").removeAttribute("color:red");
+                /*document.getElementById("box3").setAttribute("style","color:black");*/
+                document.getElementById("box3").style.color= "black";
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+            }
+        }
+
+        function doMulti() {
+            let sum;
+            let input1;
+            let input2;
+
+            input1 = document.getElementById("box1").value;
+            console.log(input1);
+            input1 = Number(input1);
+
+            input2 = document.getElementById("box2").value;
+            console.log(input2);
+            input2 = Number(input2);
+
+            sum = input1 * input2;
+            console.log(sum);
+            if(sum < 0){
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+                document.getElementById("box3").style.color= "red";
+            } else {
+                document.getElementById("box3").removeAttribute("color:red");
+                /*document.getElementById("box3").setAttribute("style","color:black");*/
+                document.getElementById("box3").style.color= "black";
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+            }
+        }
+
+        function doDiv() {
+            let sum;
+            let input1;
+            let input2;
+
+            input1 = document.getElementById("box1").value;
+            console.log(input1);
+            input1 = Number(input1);
+
+            input2 = document.getElementById("box2").value;
+            console.log(input2);
+            input2 = Number(input2);
+
+            sum = input1 / input2;
+            console.log(sum);
+            if(sum < 0){
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+                document.getElementById("box3").style.color= "red";
+            } else {
+                document.getElementById("box3").removeAttribute("color:red");
+                /*document.getElementById("box3").setAttribute("style","color:black");*/
+                document.getElementById("box3").style.color= "black";
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+            }
+        }
+
+        function doPow() {
+            let sum;
+            let input1;
+            let input2;
+
+            input1 = document.getElementById("box1").value;
+            console.log(input1);
+            input1 = Number(input1);
+
+            input2 = document.getElementById("box2").value;
+            console.log(input2);
+            input2 = Number(input2);
+
+            sum = input1 ** input2;
+            console.log(sum);
+            if(sum < 0){
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+                document.getElementById("box3").style.color= "red";
+            } else {
+                document.getElementById("box3").removeAttribute("color:red");
+                /*document.getElementById("box3").setAttribute("style","color:black");*/
+                document.getElementById("box3").style.color= "black";
+                /*document.getElementById("box3").setAttribute("value",sum);*/
+                document.getElementById("box3").value=sum;
+            }
+
+        }
+    </script>
+</head>
+
+<header>
+    <h1> Online Calculator </h1>
+</header>
+
+<body>
+
+    <div class="container">
+            <form class="centered" id="calc">
+
+                <input type="text" id="box1">
+                <label for="box1"></label>
+                <br>
+                <input type="text" id="box2">
+                <label for="box2"></label>
+                <br>
+                <input type="text" id="box3">
+                <label for="box3"></label>
+                <br>
+
+                <button class="buttons" type="button" onclick="doAdd()">+</button>
+                <button class="buttons" type="button" onclick="doMinus()">-</button>
+                <button class="buttons" type="button" onclick="doMulti()">*</button>
+                <button class="buttons" type="button" onclick="doDiv()">/</button>
+                <button class="buttons" type="button" onclick="doPow()">^</button>
+                <button class="buttons" type="button" value="clear" onclick="clear1()">C</button>
+
+            </form>
+            <img src="pictures/BlackandwhiteDownrightGourami-size_restricted.gif" alt="Snow" style="width:85%;">
+    </div>
+
+    <footer>
+        <p style= "text-align: center;">Made by Monet Aughton &copy; 2022.</p>
+        <img src="pictures/tumblr_ma9e5cpbY11rfjowdo1_500.gif" alt="Snow" style="width:30%;display: block;margin-left: auto;margin-right: auto;">
+    </footer>
+</body>
+
+</html>

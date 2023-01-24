@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> Aughton | Lab1-Part1 </title>
+	</head>
+	
+	<body>
+		<h1> Getting to Know Monet </h1>
+			<h2> Introduction </h2>
+				<p> Hello, my name is Monet and I am 20 years old. I am a rising junior from Detroit, MI. </p> 
+				<p> I enjoy playing video games and sleeping. </p>
+		
+			<h3> Music </h3>
+				<ol>
+					<li> King by:Florence and The Machines <li>
+					<li> Washing Machine Heart by:Mitski <li>
+					<li> Party Anthem by:Sloppy Jane <li>
+				
+				</ol>
+			
+			<h4> Food </h4>
+				<ul>
+					<li> dinuguan </li>
+					<li> miso hotpot w/ pork cheek </li>
+					<li> rabbit stuffed pasta </li>
+					<li> Pavement Coffeehouse's "The Fix" sandwich </li>
+					<a href="https://pavementcoffeehouse.com/"> Visit Pavement Coffeehouse </a>
+			
+			<h5> Trips </h5>
+			<table>
+    			<tr>
+       				 <th> How </th>
+        			 <th> Where </th>
+        			 <th> When </th>
+       				 <th> Why </th>
+    			</tr>
+    			
+    			<tr>
+        			<td> Airplane </td>
+       				<td> Maui </td>
+       				<td> Late December 2019 </td>
+        			<td> To celebrate Christmas with my family </td>
+    			</tr>
+    			
+    			<tr>
+        			<td> Car </td>
+       				<td> Petoskey & Charlevoix </td>
+       				<td> June 2022 </td>
+        			<td> to spend time with my family before leaving MI </td>
+    			</tr>
+    			
+    			<tr>
+        			<td> Car </td>
+        			<td> Boston </td>
+        			<td> Late June / Early July 2022 </td>
+        			<td> To attend summer 2 classes </td>
+    			</tr>
+			</table>
+	
+	</body>
+
+</html>

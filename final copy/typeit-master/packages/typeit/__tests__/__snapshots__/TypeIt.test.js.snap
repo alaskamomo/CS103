@@ -1,0 +1,562 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial queue only contains startDelay pause. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`Returns an object with expected properties. 1`] = `
+Array [
+  "break",
+  "delete",
+  "destroy",
+  "empty",
+  "exec",
+  "flush",
+  "freeze",
+  "getElement",
+  "getOptions",
+  "getQueue",
+  "go",
+  "is",
+  "move",
+  "options",
+  "pause",
+  "reset",
+  "type",
+  "unfreeze",
+  "updateOptions",
+]
+`;
+
+exports[`break() Should should queue break character object. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+]
+`;
+
+exports[`delete() Should queue pause after string when defined. 1`] = `
+Object {
+  "delay": 300,
+  "shouldPauseCursor": [Function],
+}
+`;
+
+exports[`delete() Should queue pause correctly when options are passed. 1`] = `
+Object {
+  "delay": 200,
+  "shouldPauseCursor": [Function],
+}
+`;
+
+exports[`delete() Should queue pause correctly when single digit is passed. 1`] = `
+Object {
+  "delay": 50,
+  "shouldPauseCursor": [Function],
+}
+`;
+
+exports[`delete() Should temporarily update options when specified. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Adds different even split pause around strings. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": A,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": B,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": C,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "delay": 500,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 500,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": E,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": F,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": G,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Adds even split pause around strings. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Adds split pause around strings when value is array. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": A,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": B,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": C,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "delay": 100,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 500,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": E,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": F,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": G,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Inserts split pause around multiple strings. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": A,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": B,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": C,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": D,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "char": E,
+    "delay": 0,
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+    "typeable": true,
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`move() Should queue pause after string when defined. 1`] = `
+Object {
+  "delay": 300,
+  "shouldPauseCursor": [Function],
+}
+`;
+
+exports[`move() Should queue pause correctly when options are passed. 1`] = `
+Object {
+  "delay": 200,
+  "shouldPauseCursor": [Function],
+}
+`;
+
+exports[`move() Should temporarily update options when specified. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+  Object {
+    "func": [Function],
+    "shouldPauseCursor": [Function],
+  },
+]
+`;
+
+exports[`reset() Successfully resets when called. 1`] = `
+Object {
+  "afterComplete": [Function],
+  "afterStep": [Function],
+  "afterString": [Function],
+  "beforeStep": [Function],
+  "beforeString": [Function],
+  "breakLines": true,
+  "cursor": Object {
+    "animation": Object {
+      "frames": Array [
+        Object {
+          "opacity": 0,
+        },
+        Object {
+          "opacity": 0,
+        },
+        Object {
+          "opacity": 1,
+        },
+      ],
+      "options": Object {
+        "easing": "steps(2, start)",
+        "fill": "forwards",
+        "iterations": Infinity,
+      },
+    },
+    "autoPause": true,
+    "autoPauseDelay": 500,
+  },
+  "cursorChar": "|",
+  "cursorSpeed": 1000,
+  "deleteSpeed": null,
+  "html": true,
+  "lifeLike": true,
+  "loop": false,
+  "loopDelay": Array [
+    375,
+    375,
+  ],
+  "nextStringDelay": Array [
+    375,
+    375,
+  ],
+  "speed": 100,
+  "startDelay": 250,
+  "startDelete": false,
+  "strings": Array [
+    "This is my string!",
+  ],
+  "waitUntilVisible": false,
+}
+`;
+
+exports[`type() Should queue pause after string when defined. 1`] = `
+Object {
+  "delay": 300,
+  "shouldPauseCursor": [Function],
+}
+`;
+
+exports[`type() Should queue pause correctly when options are passed. 1`] = `
+Object {
+  "delay": 200,
+  "shouldPauseCursor": [Function],
+}
+`;

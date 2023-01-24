@@ -1,0 +1,10 @@
+h1 { margin: 1px;background-color:#000000;color:red;font-size:60px;text-align: right;}
+h2 { margin: 1px;color:rgb(255,255,255);background-color:hsl(147, 50%, 47%);font-weight: 100;text-decoration: black underline overline wavy;}
+h3{margin: 1px;fort-size:64px;color:yellow;font-style: italic;line-height: 150%;word-spacing: .75em;}
+p {margin: 1px;fort-size:64px;color:#76ee00;font-variant: small-caps;}
+ul{margin: 1px;fort-size:64px;background-color:#03c03c;letter-spacing: -1px;}
+ol{margin: 1px;fort-size:64px;background-color:hsl(0, 100%, 100%);color:lightgray;letter-spacing: -1px;}
+body {background-color:hsla(303, 85%, 34%, 1);}
+    /* #a00d99 & rgba(160, 13, 153, 1) */
+em {text-transform: uppercase;}
+strong{text-shadow: 1px 1px 1px #000;}

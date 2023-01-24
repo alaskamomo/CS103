@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 7 - Part 2 - Problem 1 | CS103</title>
+	<link rel="stylesheet" type="text/css" href="lab7style1.css">
+</head>
+<body>
+
+	<header>
+		<h1>CHINCHILLAS</h1>
+		<h2>Who are they?</h2>		
+	</header>
+	
+
+	<div class="row-body">
+	
+	<div class="column-nav">
+	<nav>
+		<ul id="nav">
+		<li> <a href="#">Home</a> </li>
+		<li> <a href="#">Films</a> </li>
+		<li> <a href="#">Photography</a> </li>
+		</ul>
+	</nav>
+	</div>
+	
+	
+	<div class="column-body" id ="box1">
+	
+		<div id="environment">
+		<h2>Environment</h2>
+		<p>Chinchillas originally come from South America. Because of hunters, wild chinchillas are almost extinct. However, they are now being kept as domestic pets. 
+		Chinchillas hide when they feel threatened, so any habitat must have sufficient hiding space for the chinchilla. Often, PVC pipes are a good option if housing a chinchilla in your home.
+		</p>
+		</div>
+		
+		<div id="food">
+		<h2>Food</h2>
+		<p>Chinchillas eat many different things like pellets, hay, grass, and leafy greens. They also like an occasional treat consisting of dried fruit or sunflower seeds.
+		It is important for them to get enough nutrients in their diet. A pellet-only diet is not sufficient. There must be variety.</p>
+		</div>
+		
+		<script> 
+		alert("To see the rest of the website, you should be a CHINCHILLA lover!");
+
+		let input1 = String(prompt("Are you? If yes, put 'Y'. Otherwise, put 'N'."));
+
+		if (input1 == "Y"){
+			document.getElementById("environment").style.display = "block";
+			document.getElementById("food").style.display = "block";
+		}else{
+			alert("you are not allowed to enter this website!"); 
+			document.getElementById('box1').innerHTML = "<h1 style='padding:20vh 0;'>you are not allowed to see the main content!</h1>";
+		}
+		</script>
+		
+		
+		<div id="funfacts">
+		
+		<h2>Fun Facts</h2>
+		<ul>
+			<li>Chinchillas are very susceptible to heat stroke</li>
+			<li>Chinchillas groom themselves through what is called a dust bath</li>
+			<li>Chinchillas are prone to dental disease and constipation</li>
+			<li>Chinchillas that have good health are normally shy</li>
+			<li>Food is really good to entice chinchillas and get them to like you</li>
+		</ul>
+		<script src="inputs.js"></script> 
+		</div>
+			
+		</div>
+	
+	</div>
+	
+	 
+	<footer>
+		<p>Kate Wauschek &copy; 2022. All Rights Reserved.</p>
+	
+	</footer>
+<!-- 
+	<script> 
+		alert("to enter this page you must be at least 18 years old.");
+		var age = Number(prompt("What is your age?"));
+		var x;
+		var n = 3;
+		for (x = 1; x <= n; x = x+1){
+			if(x == n && (isNaN(age) || age <= 0)){
+				alert("oh no! you've used up all your chances to enter!");
+				document.getElementById("box1").innerHTML = "<h1 style = 'text-align:center;color:red;'>You can't see the content of this page :( </h1>."
+			}
+			else {
+				if(isNaN(age)){
+					alert("oh no! you've put in a non number! You have " + (n-x) + " chance(s) to put in a new real number.");
+					age = Number(prompt("What is your age?"));
+				} else if (age == 0) {
+					alert("oh no! you've forgotten to answer the prompt! You have " + (n-x) + " chance(s) to put in your age.");
+					age = Number(prompt("What is your age?"));
+				}else if (age < 0){
+					alert("oh no! you've age is a negative number! You have " + (n-x)+ " chance(s) to put in your age.");
+					age = Number(prompt("What is your age?"));
+				} 
+				else {
+					if (age > 17){
+						alert("Welcome to our Website!");
+					} else {
+						alert("You cannot access our Website!");
+						document.getElementById("box1").innerHTML = "<h1 style = 'text-align:center;color:red;'>You can't see the content of this page :( </h1>."
+					}
+				break;
+				}
+			}
+		}
+		document.getElementById("box1").style.display = "block"
+	</script>
+ -->
+
+</body>
+</html>

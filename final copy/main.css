@@ -1,0 +1,227 @@
+/*created by monet*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 2%;
+}
+
+/* fancybox stuff borrowed from playground */
+a[data-fancybox] img {
+    cursor: zoom-in;
+}
+
+/* bootstrap */
+.col-lg-6{
+    border: solid white 1px;
+}
+
+/* Titles */
+#top h1,h2{
+    font-family: 'Chakra Petch', sans-serif;
+    padding-top: 2%;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: calc(2vw + .5vw);
+    margin:5px auto;
+}
+
+p{
+    padding: 5px;
+    text-align: center;
+    font-size: calc(1vw + .5vw);
+    margin:5px auto;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    text-align:center;
+    padding: 10px;
+}
+
+li{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(1vw + .5vw);
+}
+table{
+/*    border-spacing: 10px;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* navigation bar */
+
+#navbar {
+    padding: 2px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #8394cb;
+    /*background-color: #76aec6;*/
+}
+
+#navbar a {
+    display: inline-block;
+    color: #4d65b4;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar img {
+    padding: 14px 16px;
+    border-radius: 50%;
+    max-width: 15%;
+    max-height: 10%;
+    display: inline-block;
+}
+
+#navbar a:hover {
+    background-color: #90a2dc;
+    border-radius: 35%;
+}
+
+#navbar a.active {
+    color: #cfdbff;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* js spin stuff*/
+.spin {
+    padding: .5rem;
+    text-align: center;
+    cursor: pointer;
+}
+/* the rest */
+
+img {
+    max-width: 95%;
+    max-height: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    max-width: 95%;
+    max-height: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color:#cd86ab;
+}
+
+#background1{
+    background-color: rgba(171, 205, 134, 0.79);
+    border-radius: 25px;
+    max-width: 95%;
+    max-height: 85%;
+    margin-bottom: 10px;
+}
+
+#background1foot{
+    background-color: rgba(171, 205, 134, 0.79);
+    border-radius: 25px;
+    text-align: center;
+    font-size: calc(.5vw + 1.5vw);
+    margin: auto;
+    max-width: 85%;
+}
+
+#page1{
+    background: linear-gradient(to top, #cd86ab 0%, #abcd86 25% , #86cda8 50% ,#86abcd 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#background2{
+    background-color: rgba(186, 106, 238, 0.58);
+    border-radius: 25px;
+    max-width: 95%;
+    max-height: 85%;
+    margin-bottom: 10px;
+    /*margin:8px;*/
+}
+
+#background2foot{
+    background-color: rgba(186, 106, 238, 0.58);
+    border-radius: 25px;
+    text-align: center;
+    font-size: calc(.5vw + 1.5vw);
+    margin: auto;
+    max-width: 85%;
+}
+
+#page2{
+    background: linear-gradient(to right, #e5c795 0%, #95e5c7 25%,#95b3e5 50%,#c795e5 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#background3{
+    background-color: rgba(234, 210, 169, 0.65);
+    border-radius: 25px;
+    max-width: 95%;
+    max-height: 85%;
+    margin-bottom: 5px;
+    /*margin:8px;*/
+}
+
+#background3foot{
+    background-color: rgba(234, 210, 169, 0.65);
+    border-radius: 25px;
+    text-align: center;
+    font-size: calc(.5vw + 1.5vw);
+    margin: auto;
+    max-width: 85%;
+}
+
+#page3{
+    background: linear-gradient(to bottom left, #dfaea1 25%, #a1dfae 50% ,#a1d2df 75%, #aea1df 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(2vw + .5vw);
+}
+
+
+
+

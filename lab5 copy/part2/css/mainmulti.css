@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	margin:0; 
+   	padding:0; 
+   	box-sizing: border-box;
+   	}
+
+body{
+	font-family: 'Ibarra Real Nova', serif;
+	color: #660066;
+	}
+
+header {
+	font-size: calc(8px + 2vw); 
+    text-align: center; 
+    background: linear-gradient(to top left, #9966ff 0%, #ff9966 100%);
+	border-bottom: 4px solid black; 
+    padding: 20px 0;
+	}
+	
+
+.row-body {
+	float: left; 
+	width: 100%;
+    background: linear-gradient(to top left, #9966ff 0%, #ff9966 100%);
+    border-bottom: 4px solid black; 
+    }
+
+.column-nav {
+	float: left; 
+    width: 22%; 
+    background:rgba(153, 102, 255, 0.68);
+    }
+
+ul#nav {
+	text-align: left;
+	}
+
+nav li {
+	list-style-type: none; 
+    margin: 10px;
+    text-decoration: none;
+    }
+
+nav a {
+	display: inline-block;
+    padding: 10px 10px ;
+	text-decoration: none; 
+    color: black;
+    font-size: calc(8px + 1vw);
+    }
+       
+
+.column-body {
+	float: left; 
+	width: 78%; 
+    background: linear-gradient(to top left, #9966ff 0%, #ff9966 100%);
+    padding: 2% 5% 2% 5%; 
+    border-left: 2px solid black; 
+    }
+
+#where {
+	background-color:rgba(153, 102, 255, 0.68);
+	padding: 2% 2%;
+	margin: 4px;
+    font-size: calc(5px + 1vw);
+    }
+    
+#where h2 {
+	padding: 4px 0;
+	}
+
+#where a{
+	color: #660066;
+	background-color:#ff00ff;
+}
+
+#history {
+	background-color:rgba(153, 102, 255, 0.68);
+	padding: 2% 2%;
+	margin: 4px;
+    font-size: calc(5px + 1vw);
+    }
+    
+#history h2 {
+	padding: 4px 0;
+	}
+	
+#history a{
+	color: #660066;
+	background-color:#ff00ff;
+}
+
+#quickfacts {
+	background-color:rgba(153, 102, 255, 0.68);
+	padding: 2% 0;
+	margin: 4px;
+    font-size: calc(5px + 1vw);
+    }
+    
+#quickfacts a{
+	color: #660066;
+	background-color:#ff00ff;
+}
+
+#quickfacts h2 {
+	padding: 4px 0;
+	}
+	
+#quickfacts ul {
+	padding-left: 4%;
+	}
+	
+#quickfacts li {
+	padding: 3px;
+	}
+	
+#gallery{
+	margin: 5px;
+	}	
+
+#credits{
+	background-color:rgba(153, 102, 255, 0.68);
+	padding: 2% 0;
+	margin: 4px;
+    font-size: calc(5px + 1vw);
+    }
+
+#credits a{
+	line-height: 2.3;
+	color: #660066;
+}
+
+#credits mark{
+	background-color:#ff00ff;
+}
+
+#webcredits{
+	background-color:rgba(153, 102, 255, 0.68);
+	padding: 2% 0;
+	margin: 4px;
+    font-size: calc(5px + 1vw);
+    }
+
+#webcredits a{
+	line-height: 2.3;
+	color: #660066;
+}
+
+#webcredits mark{
+	background-color:#ff00ff;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+	border-top: 4px solid black; 
+	clear: both; 
+	text-align: center; 
+	padding: 5px;
+    font-size: calc(5px + 1vw);
+    }
+
+footer p {
+	padding: 5px; 
+	color: black;
+	}
+
+@media screen and (max-width:768px) {
+	
+	ul#nav {text-align: center;}
+	 
+	.row-body {
+		float: none; 
+		width: 100%;
+        background-color: #DAAD86;
+/*         border-bottom: 4px solid black;  */
+        }
+
+	.column-nav {
+		float: none; 
+        width: 100%; 
+        background-color: rgba(153, 102, 255, 0.68);
+        }
+ 	
+	 nav li {
+   		list-style-type: none; 
+        margin: 10px;
+        text-decoration: none;
+        display:inline; 
+    }
+ 	
+ .column-body {
+ 		float: none; 
+		width: 100%; 
+        background: linear-gradient(to top left, #9966ff 0%, #ff9966 100%);
+        padding: 2% 5% 2% 5%; 
+/*         border-bottom: 4px solid black;  */
+        }
+  
+  nav a {
+   	   text-decoration: none; 
+       color: black;
+       font-size: calc(8px + 1vw);
+    	}
+  
+  #where{
+   		display: none;
+   	}  
+    
+ 
+  }
+
+@media screen and (max-width: 550px) {
+   	 #history{
+   		display: none;
+   	}
+  
+  }

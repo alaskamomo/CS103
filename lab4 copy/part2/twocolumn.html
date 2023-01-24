@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href=" question3.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  
+  <head>
+    <title> Responsive Two-Column Layout | CS103-Lab </title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script> 
+    	Fancybox.bind('[data-fancybox="gallery"]', {
+  			Thumbs: {
+    			Carousel: {
+      				fill: false,
+      				center: true,
+    			},
+  			},
+		}); 
+    </script>
+  </head>
+ 
+  <!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href=" question3.css" />
+  
+  <head>
+    <title> Responsive Two-Column Layout | CS103-Lab </title>
+  </head>
+ 
+  <body>
+    <div id="container">
+      <!-- -->
+      <header>
+        <h3> Lab 4 Part 2 Q3 </h3>
+      </header>
+      
+      <!-- -->
+      <div id="wrapper">
+        
+      <nav class="menu">
+           <!-- links -->
+              <a href="#">Home</a>
+              <a href="#">Contact</a>
+              <a href="#">Author</a>
+              <a href="#">Credits</a>
+      </nav>
+      
+      <div class="right"> 
+        <h3> This is the body area </h3>
+        <p style=" margin-top: 2px;">  Howdy! How is your day going?</p>
+        
+        <table>
+          <h3 style=" margin-top: 7px;padding-top: 7px;"> Info About Page</h3>
+          <tr>
+            <td>
+              <ol>
+                <p><strong> list of tags in page</strong></p>
+                <li> li & ol </li>
+                <li> div </li>
+                <li> nav </li>
+                <li> footer </li>
+                <li> header </li>
+                <li> head </li>
+              </ol>
+            </td>
+            
+            <td>
+              <ul>
+              <p><strong> list of colors in page</strong></p>
+                <li> #8b0a50 </li>
+                <li> #b1e3fb </li>
+                <li> #c9b1fb </li>
+                <li> #e3fbb1 </li>
+                <li> #fbc9b1 </li>
+                <li> #ace1af </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <img src="photos/scaredofmoth.jpeg" alt="man scared of moth">
+        <p> "Attack of the Lunesta Moth" created by: <a href="https://www.flickr.com/photos/50653019@N00">maxintosh</a> for Flickr </p>
+        
+		<h1 style= "text-align:center;font-size: calc(2vw + .5vw); margin-top: 7px;"> Picture area</h1>
+		<p style= "text-align:center;font-size: calc(1.5vw + .5vw); margin-top: 2px; margin-left: auto;margin-right: auto;"> Align active thumbnail in the center </p>
+		
+		<div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
+  			<a data-fancybox="gallery" href="https://lipsum.app/id/13/1600x900">
+    		<img class="rounded" src="https://lipsum.app/id/13/1600x900" />
+  			</a>
+  			
+  			<a data-fancybox="gallery" href="https://lipsum.app/id/17/1600x900">
+    		<img class="rounded" src="https://lipsum.app/id/17/1600x900" />
+  			</a>
+  
+  			<a data-fancybox="gallery" href="https://lipsum.app/id/55/1600x900">
+    		<img class="rounded" src="https://lipsum.app/id/55/1600x900" />
+ 			</a>
+ 			
+ 			<a data-fancybox="gallery" href="https://lipsum.app/id/73/1600x900">
+   			<img class="rounded" src="https://lipsum.app/id/73/1600x900"/>
+  			</a>		 
+ 		</div>
+        
+      </div>
+    </div>
+             
+      <footer>
+        <p><em><strong> monet aughton </strong></em> &copy; 2022</p>  
+      </footer>
+             
+    </div>
+  </body>
+  
+</html>

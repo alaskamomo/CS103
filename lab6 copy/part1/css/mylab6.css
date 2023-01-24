@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	margin:0; 
+   	padding:0; 
+   	box-sizing: border-box;
+   	}
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	color: #660066;
+	border-bottom: 4px solid black;
+	}
+
+header {
+	font-size: calc(8px + 2vw); 
+    text-align: center; 
+    background: ;
+	border-bottom: 4px solid black; 
+    padding: 20px 0;
+	}
+	
+
+.box1{
+	height: 50vh;
+	width: 30%;
+	border: 7px solid #660066;
+	margin: 10px;
+	box-shadow: 0 0 6px black;
+	background-image: url('../rp1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position:absolute;
+	left:1%;
+	
+	}
+	
+.box2{
+	height: 50vh;
+	width: 30%;
+	border: 7px solid #660066;
+	margin: 10px;
+	box-shadow: 0 0 6px black;
+	background-image: url('../redp2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position:absolute;
+	left:23%;
+	top:190px;
+	}
+
+.box3{
+	height: 50vh;
+	width: 30%;
+	border: 7px solid #660066;
+	margin: 10px;
+	box-shadow: 0 0 6px black;
+	background-image: url('../rpanda3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position:absolute;
+	left:45%;
+	}
+ 	
+.box4{
+	height: 50vh;
+	width: 30%;
+	border: 7px solid #660066;
+	margin: 10px;
+	box-shadow: 0 0 6px black;
+	background-image: url('../redpanda4.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position:absolute;
+	left:67%;
+	top:190px;
+	}
+	
+.text{
+	color: white;
+	text-align: center;
+	margin:0;
+	padding-top: 15vh;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgba(0,0,0,.6);
+	height: 100%;
+	opacity:0;
+	transition: opacity 2s linear;
+	}
+
+.box1:hover .text{
+	opacity: 1;
+	}
+
+.box2:hover .text{
+	opacity: 1;
+	z-index:2;
+	}
+
+.box3:hover .text{
+	opacity: 1;
+	z-index: 2;
+	}
+
+.box4:hover .text{
+	opacity: 1;
+	}
+	
+.rotate{
+	position:relative;
+	}
+	
+.wrapper{
+	width:100%;
+	height:80vh;
+	margin:0 auto;
+	background: linear-gradient(to top, #ff5050 0%, #ffcc99 100%);
+	}
+	
+.box1:hover{
+	z-index:1000;
+}
+
+.box2:hover{
+	z-index:1000;
+}
+
+.box3:hover{
+	z-index:1000;
+}
+
+.box4:hover{
+	z-index:1000;
+}
+
+

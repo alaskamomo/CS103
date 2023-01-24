@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,500;1,400&display=swap');
+
+body{
+   height:1200px;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+}
+
+div{
+  font-family:'Overpass', sans-serif;
+}
+
+article,footer{
+  color: #68228b;
+  border-top:3px dotted #ff55a3;
+  margin: 60px;
+}
+
+h1{
+  color: #b03060;
+  text-align: center;
+  font-family:'Overpass', sans-serif;
+  font-size: 40px;
+  position:relative;left:-2px;top:60px;
+}
+
+h2{
+  font-style: italic;
+  text-align: center;
+  text-decoration:underline dotted;
+}
+
+h3{
+  color: #b03060;
+  font-style: italic;
+  text-align: center;
+  font-family:'Overpass', sans-serif;
+  font-size: 30px;
+  position:relative;left:-2px;top:40px;
+}
+
+a{
+  font-style: italic;
+  color: #9932cc;
+}
+
+strong{
+  color: #8b1c62;
+}
+
+em{
+  color: #8b1c62;
+  text-decoration:underline overline wavy;
+}
+
+footer{
+  text-align: center;
+}
+
+table, th, td {
+  border:2px dotted #6c3082;
+  color: #9f4576;
+  text-align: center;align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

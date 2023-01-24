@@ -1,0 +1,23 @@
+{
+  "name": "typeit-monorepo",
+  "version": "0.0.0",
+  "description": "The monorepo for managing TypeIt libraries.",
+  "main": "",
+  "author": "Alex MacArthur",
+  "scripts": {
+    "build": "lerna bootstrap && lerna run build",
+    "publish": "lerna bootstrap && lerna publish",
+    "bootstrap": "lerna bootstrap --force-local",
+    "test": "lerna run test",
+    "prettier": "prettier --write \"./packages/**/*.{md,js,tsx,ts}\""
+  },
+  "lint-staged": {
+    "*.{js,md}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lerna": "^5.1.8",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}

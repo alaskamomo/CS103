@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cedric's Favorite Game|Games</title>
+	<link rel="stylesheet" type="text/css" href="game1.css">
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+	<div id="all">
+	<header class="" id="top">
+		<!--Have an image of Breath of the wild as the backgrond image for the titles. -->
+		<h2 id="title1">Cedric's Favorite Game</h2>
+		<h1 class="subtitle1">Legend of Zelda</h1>
+		<h1 class="subtitle2">Breath of the Wild</h1>
+	</header>
+		<script>
+		ScrollReveal().reveal('#top', { delay: 400 });
+		</script>
+		<nav class="" id="navbar">
+            <!--<img class="spin" src="" alt="Link icon">-->
+            <a class="active" href="../home.html">Home</a>
+            <a class="active" href="../baw.html">Pokemon</a>
+            <a class="active" href="../hades.html">Hades</a>
+            <a class="active" href="game2.html">Hollow Knight</a>
+            <a class="active" href="game1.html">Breath of the Wild</a>
+            <a class="active" href="../credits.html">Credits</a>
+        </nav>
+        <script>
+		ScrollReveal().reveal('#navbar', { delay: 550 });
+		</script>
+	<div id="main-content">
+		<!-- -->
+		<h2 id="title2">Why I love this game</h2>
+		<p>Breath of the Wild has been my favorite game for a few years now. Playing BoTW is one of the best piece of media that I've experienced. The game has some of the best examples of well executed game design elements.</p>
+		<p>BoTW uses a variety of game design elements and mechanics that come together to make the full game. These design elements include but aren't limited to...</p>
+		
+		<ul class="main-list">
+			<!--Put an image and/or video representeing each mechanic -->
+			<div data-sr class="n1">
+				<li class="item">Non-linear quest design
+				<ul>
+					<li><p>At the start of the game, you begin with your character on an area called the Great Plateu which serves as a tutorial.</p></li>
+					<li><p>After this reletivly brief start, the entire world is opened up to you, including the option to fight the final boss.</p></li>
+					<div class="embed">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/samulGnaDVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				    </div>
+				</ul>
+			</li>
+		<script>
+		ScrollReveal().reveal('.n1', { delay: 400 });
+		</script>
+		</div>
+		
+		<div data-sr>	
+			<li class="item" id="n2">Creative puzzle design
+				<ul>
+					<li><p>BoTW uses a variety of or elements in the puzzle areas and in the world environment itself that are able to be affected by the player with a few very versitile tools given to them.</p></li>
+					<img src="example-image1.jpg" id="ex1" alt="A puzzle room in Breath of the Wild">
+				</ul>
+			</li>
+			<script>
+		ScrollReveal().reveal('#n2', { delay: 400 });
+		</script>
+		</div>
+		<div data-sr>			
+			<li class="item" id="n3">Mechanics that encourage exploration
+				<ul>
+					<li><p>To get players to explore the beautiful world created by the develpors, there are many mechanics that are put in place to incentivise this. A great exmple of this is the weapon breaking mechanic that has players always looking for better weapons around the environment.</p></li>
+					<img src="weapon-break1.jpg" id="ex2">
+				
+				</ul>
+			</li>	
+			<script>
+			ScrollReveal().reveal('#n3', { delay: 400 });
+			</script>	
+		</div>
+		</ul>
+
+	</div>
+	<script>
+		ScrollReveal().reveal('#main-content', { delay: 700 });
+		</script>
+	</div>
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
+	<footer id="background1foot">
+            <p><em><strong> cedric pierre louis </strong></em> &copy; 2022</p>
+    </footer>
+</body>
+</html>
